@@ -370,6 +370,7 @@ a:focus {
 .content-section {
     padding-top: 100px;
     background-color:black;
+    color:white;
 }
 
 .content-section .btn-lg {
@@ -417,6 +418,22 @@ a:focus {
     }
 
 }
+
+#we-do-header {
+  padding-top: 100px;
+}
+
+#we-do-header h1.sub-header-red {
+    text-transform: none;
+}
+
+#investment {
+  background-color: inherit;
+  color: black;
+}
+
+
+
 
 .btn {
     border-radius: 0;
