@@ -4,9 +4,15 @@ A repository for the on-going development of the Redshift Strategy website.
 
 ## Contents
 
-To use this template, choose one of the following options to get started:
-* Download the latest release on Start Bootstrap
-* Fork this repository on GitHub
+Site directory is as follows:
+
+* Home
+* What we do
+* Clients
+* Tech Suite
+* Careers
+* Contact
+
 
 ## To do list
 
