@@ -432,6 +432,23 @@ a:focus {
   color: black;
 }
 
+.project-img-holder {
+  width:80%;
+  max-width: 250px;
+  padding: 20px;
+  display: inline-block;
+}
+
+.project-img-holder img {
+  border-radius: 50%;
+  width: 100%;
+  border: 2px white solid;
+  padding: 1px;
+}
+
+.project-desc-holder {
+  text-align:center;
+}
 
 
 
@@ -444,14 +461,13 @@ a:focus {
     transition: all .3s ease-in-out;
 }
 
-.btn-default {
+.btn-default, .btn-default:focus {
     border: 1px solid #8C0B05;
     color: white;
     background-color: #8C0B05;
 }
 
-.btn-default:hover,
-.btn-default:focus {
+.btn-default:hover {
     border: 1px solid #8C0B05;
     outline: 0;
     color: white;
