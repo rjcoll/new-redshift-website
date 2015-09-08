@@ -20,7 +20,6 @@ Site directory is as follows:
 * Finish logos for clients page
 * Finalise RC bio
 * Careers and contact page
-
 * Add in projects to what we do
 * Add favicon
 
