@@ -20,12 +20,15 @@ Site directory is as follows:
 * Finish logos for clients page
 * Finalise RC bio
 * Careers and contact page
---* map
---* twitter
---* address
---* telephone and e-mail details
+⋅⋅* map
+⋅⋅* twitter
+⋅⋅* address
+⋅⋅* telephone and e-mail details
 * Add in projects to what we do
 * Add favicon
+
+⋅
+
 
 * WP - case study for careers section
 
