@@ -176,6 +176,13 @@ a:focus {
     font-size: 18px;
 }
 
+.intro-body img {
+  max-width:100%
+}
+
+.intro-body a {
+clear: both}
+
 @media(min-width:768px) {
     .intro {
         height: 100%;
