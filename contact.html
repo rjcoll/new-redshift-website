@@ -97,8 +97,27 @@
     <section id="client" class="client-section text-center">
         <div class="container">
           <div class="row">
-              <div class="col-lg-10 col-lg-offset-1">
+              <div id='contact-holder' class="col-lg-10 col-lg-offset-1">
                   <h1>Contact us</h1>
+                <div id='map-holder' class="col-sm-6">
+                  <h3>Map</h3>
+                  <div id="map"></div>
+                </div>
+
+                <div id='address-holder' class="col-sm-6">
+                  <h3>Address</h3>
+                  <div>
+                    <p><strong>Redshift Strategy</strong>
+                      </br>6a Wimpole Street
+                      </br>London
+                      </br>W1G 8AL
+                    </p>
+                    <p>+44 (0) 207 636 4522
+                    </br><a href="http://twitter.com/redshiftsc">@redshiftsc</a>
+                    </p>
+                  </div>
+                </div>
+
               </div>
           </div>
         </div>
@@ -138,7 +157,26 @@ The Tech Suite offers our clients the opportunity to gain hands-on experience an
     <script src="js/jquery.easing.min.js"></script>
 
     <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map');
+        var mapOptions = {
+          center: new google.maps.LatLng(51.5169843,-0.1475757),
+          zoom: 15,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+
+        var marker=new google.maps.Marker({
+          position: mapOptions.center
+        });
+
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+        marker.setMap(map);
+
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>

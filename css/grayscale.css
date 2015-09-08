@@ -45,7 +45,7 @@ p {
 }
 
 a {
-    color: #42dca3;
+    color: #8C0B05;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -54,7 +54,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #1d9b6c;
+    color: black;
 }
 
 .light {
@@ -447,6 +447,23 @@ a:focus {
   text-align:center;
 }
 
+#map-holder {
+    margin-bottom: 50px;
+}
+
+#map {
+  width: 100%;
+  height:100%;
+}
+
+#map-holder > div {
+  height:300px;
+
+}
+
+#address-holder a {
+  text-decoration:underline;
+}
 
 
 .btn {
