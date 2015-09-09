@@ -14,7 +14,7 @@ $(window).scroll(function() {
 });
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
-$(function() {
+/*$(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
@@ -22,7 +22,7 @@ $(function() {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
-});
+});*/
 
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {

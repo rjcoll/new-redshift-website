@@ -11,6 +11,7 @@ body {
     color: black;
     background-color: #FFFFFA;
     overflow:scroll;
+    text-align:left;
 }
 
 html {
@@ -101,6 +102,10 @@ a:focus {
     color: #8C0B05;
 }
 
+.navbar-custom li.active a {
+    color: black;
+}
+
 .navbar-custom .nav li a {
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -121,6 +126,8 @@ a:focus {
 
 .navbar-custom .nav li.active {
     outline: 0;
+    color:black;
+    font-weight: bold;
 }
 
 /*.navbar-custom .nav li.active a {
@@ -204,7 +211,8 @@ clear: both}
 }
 
 #about {
-  color: white;
+  color: black;
+  border-top: 10px solid #8C0B05;
 }
 
 #about h1 {
@@ -217,7 +225,7 @@ clear: both}
 }
 
 .team-holder {
-  margin:20px auto;
+  margin-bottom:15px;
 }
 
 .team-desc {
@@ -239,9 +247,16 @@ clear: both}
   font-weight:bold;
 }
 
+.img-team-holder {
+  padding: 0;
+}
+
+.img-team {
+  padding: 0;
+}
+
 .img-team img {
   width:100%;
-  max-width: 250px;
   border-bottom: 2px solid transparent;
   border-bottom-width: 100%;
 }
@@ -434,10 +449,16 @@ box-shadow: 4px 2px 10px 0px rgba(50, 50, 50, 0.75);
     }
 }
 
+.img-label {
+    position: absolute;
+    bottom: 0;
+    right: 4px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
 .content-section {
     padding-top: 100px;
-    background-color:black;
-    color:white;
 }
 
 .content-section .btn-lg {
@@ -450,6 +471,8 @@ box-shadow: 4px 2px 10px 0px rgba(50, 50, 50, 0.75);
     padding: 50px 0;
     color: #fff;
     background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    border-top: 2px solid #8C0B05;
+    border-bottom: 1px solid #8C0B05;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -579,13 +602,36 @@ ul.banner-social-buttons {
 }
 
 footer {
+
     padding: 50px 0;
-    background-color: #FFFFFA;
+    position:relative;
+    border-top: 1px solid #BC0b05;
+}
+
+footer .bg {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url(../img/intro-bg1.png) no-repeat center 19%;
+  opacity: .2;
+  width: 100%;
+  height: 100%;
 }
 
 footer p {
     margin: 0;
     color: black;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul > li {
+  line-height: 1.7em
 }
 
 ::-moz-selection {
@@ -612,8 +658,16 @@ body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
+.client-img-holder {
+  padding-bottom: 25px;
+}
+
 .client-section .img-holder {
     padding:10px 0;
+}
+
+.client-section .img-holder:hover {
+
 }
 
 .client-section .img-responsive {
@@ -644,8 +698,8 @@ body {
 
 }
 
-.img-holder:hover {
+/*.img-holder:hover {
   -webkit-box-shadow: 4px 2px 10px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow:    4px 2px 10px 0px rgba(50, 50, 50, 0.75);
   box-shadow:         4px 2px 10px 0px rgba(50, 50, 50, 0.75);
-}
+}*/
