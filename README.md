@@ -16,13 +16,14 @@ Site directory is as follows:
 
 ## To do list
 
-
-
-* Finalise RC bio
 * Add favicon
-* Add redshift logo to all pages
 * Add links to footer
-* fix landing page image label bug
+* Tech suite logo sizes
+* Take Yellow sofa image (or adapt from old website)
+* Jazz up landing page description
+* client tile size on small screens
+* add encompass
+* add arrows on what we do call to action
 
 
 #### Careers page
