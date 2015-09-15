@@ -16,19 +16,13 @@ Site directory is as follows:
 
 ## To do list
 
-* Add in logos for tech suite
-* Finish logos for clients page
+
+
 * Finalise RC bio
-* Careers and contact page
-* Add in projects to what we do
 * Add favicon
-
-#### Contacts page
-
-* map
-* twitter
-* address
-* telephone and e-mail details
+* Add redshift logo to all pages
+* Add links to footer
+* fix landing page image label bug
 
 
 #### Careers page
