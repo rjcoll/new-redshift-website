@@ -441,8 +441,8 @@ clear: both}
 
 
 
-#what-we-do {
-
+#what-we-do a.btn i {
+  margin-left: 7px;
 }
 
 .project-example {

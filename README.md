@@ -16,14 +16,9 @@ Site directory is as follows:
 
 ## To do list
 
-* Add favicon
-* Add links to footer
 * Tech suite logo sizes
 * Take Yellow sofa image (or adapt from old website)
 * Jazz up landing page description
-* client tile size on small screens
-* add encompass
-* add arrows on what we do call to action
 
 
 #### Careers page
