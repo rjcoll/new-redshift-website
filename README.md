@@ -16,19 +16,9 @@ Site directory is as follows:
 
 ## To do list
 
-* Add in logos for tech suite
-* Finish logos for clients page
-* Finalise RC bio
-* Careers and contact page
-* Add in projects to what we do
-* Add favicon
-
-#### Contacts page
-
-* map
-* twitter
-* address
-* telephone and e-mail details
+* Tech suite logo sizes
+* Take Yellow sofa image (or adapt from old website)
+* Jazz up landing page description
 
 
 #### Careers page
